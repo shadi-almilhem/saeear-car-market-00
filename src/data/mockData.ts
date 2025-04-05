@@ -45,7 +45,10 @@ export const mockCars: Car[] = [
     model: "كامري",
     year: 2022,
     price: 120000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1534828894970-9f3e085ca19f.jpg",
+      "https://nomorecopyright.com/images/car/photo-1605556443921-51a82b6f823c.jpg"
+    ],
     description: "سيارة تويوتا كامري موديل 2022 بحالة ممتازة، قليلة الاستخدام",
     sold: false,
     color: "أبيض",
@@ -60,7 +63,10 @@ export const mockCars: Car[] = [
     model: "باترول",
     year: 2021,
     price: 250000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1541899481282-d53bffe3c35d.jpg",
+      "https://nomorecopyright.com/images/car/photo-1573950940509-d924ee3fd345.jpg"
+    ],
     description: "نيسان باترول فل كامل، بدون حوادث، صيانة دورية",
     sold: false,
     color: "أسود",
@@ -75,7 +81,10 @@ export const mockCars: Car[] = [
     model: "ES",
     year: 2023,
     price: 280000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1583121274602-3e2820c69888.jpg",
+      "https://nomorecopyright.com/images/car/photo-1494976388531-d1058494cdd8.jpg"
+    ],
     description: "لكزس ES موديل 2023، فل أوبشن، تحت الضمان",
     sold: false,
     color: "فضي",
@@ -90,7 +99,10 @@ export const mockCars: Car[] = [
     model: "أكورد",
     year: 2022,
     price: 130000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1568605117036-5fe5e7bab0b7.jpg",
+      "https://nomorecopyright.com/images/car/photo-1603584173870-7f23fdae1b7a.jpg"
+    ],
     description: "هوندا أكورد 2022، ماشي 30 ألف كم فقط، بحالة الوكالة",
     sold: false,
     color: "أزرق",
@@ -105,7 +117,10 @@ export const mockCars: Car[] = [
     model: "E-Class",
     year: 2021,
     price: 350000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1553440569-bcc63803a83d.jpg",
+      "https://nomorecopyright.com/images/car/photo-1525609004556-c46c7d6cf023.jpg"
+    ],
     description: "مرسيدس E-Class موديل 2021، فل كامل، بحالة ممتازة",
     sold: false,
     color: "أسود",
@@ -120,7 +135,10 @@ export const mockCars: Car[] = [
     model: "X5",
     year: 2023,
     price: 420000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1551952238-2a1b84298735.jpg",
+      "https://nomorecopyright.com/images/car/photo-1592198084033-aade902d1aae.jpg"
+    ],
     description: "بي إم دبليو X5 موديل 2023، فل كامل، تحت الضمان",
     sold: false,
     color: "أبيض",
@@ -135,7 +153,10 @@ export const mockCars: Car[] = [
     model: "سوناتا",
     year: 2022,
     price: 95000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1550355291-bbee04a92027.jpg",
+      "https://nomorecopyright.com/images/car/photo-1502877338535-766e1452684a.jpg"
+    ],
     description: "هيونداي سوناتا 2022، بحالة ممتازة، سيرفس منتظم",
     sold: true,
     color: "رمادي",
@@ -150,7 +171,10 @@ export const mockCars: Car[] = [
     model: "إكسبلورر",
     year: 2021,
     price: 160000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1533473359331-0135ef1b58bf.jpg",
+      "https://nomorecopyright.com/images/car/photo-1546614042-7df3c24c9e5d.jpg"
+    ],
     description: "فورد إكسبلورر 2021، 7 راكب، بحالة ممتازة",
     sold: true,
     color: "أحمر",
@@ -165,7 +189,10 @@ export const mockCars: Car[] = [
     model: "تاهو",
     year: 2020,
     price: 180000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1549317661-bd32c8ce0db2.jpg",
+      "https://nomorecopyright.com/images/car/photo-1533106418989-88406c7cc8ca.jpg"
+    ],
     description: "شيفروليه تاهو 2020، بحالة جيدة جداً، صيانة دورية",
     sold: true,
     color: "أسود",
@@ -180,7 +207,10 @@ export const mockCars: Car[] = [
     model: "كيا K5",
     year: 2022,
     price: 110000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1547245324-59b6be4ef826.jpg",
+      "https://nomorecopyright.com/images/car/photo-1494905998402-395d579af36f.jpg"
+    ],
     description: "كيا K5 موديل 2022، بحالة ممتازة، ماشي 40 ألف كم",
     sold: true,
     color: "رمادي",
@@ -195,7 +225,10 @@ export const mockCars: Car[] = [
     model: "جراند شيروكي",
     year: 2021,
     price: 200000,
-    images: ["/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "https://nomorecopyright.com/images/car/photo-1552519507-da3b142c6e3d.jpg",
+      "https://nomorecopyright.com/images/car/photo-1507553532144-b9df5e38c8d1.jpg"
+    ],
     description: "جيب جراند شيروكي 2021، فل أوبشن، بحالة ممتازة",
     sold: true,
     color: "أخضر",

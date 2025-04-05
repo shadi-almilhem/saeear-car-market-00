@@ -5,6 +5,7 @@ import { CarGrid } from "@/components/CarGrid";
 import { SearchBar } from "@/components/SearchBar";
 import { mockCars } from "@/data/mockData";
 import { Car } from "@/types";
+import { toast } from "sonner";
 
 const Cars = () => {
   const { language, t } = useLanguage();
@@ -16,10 +17,15 @@ const Cars = () => {
     const timer = setTimeout(() => {
       setCars(mockCars);
       setIsLoading(false);
+      toast.success(t("carsLoaded"), {
+        description: language === "ar" 
+          ? "تم تحميل بيانات السيارات بنجاح"
+          : "Car data loaded successfully"
+      });
     }, 1000);
     
     return () => clearTimeout(timer);
-  }, []);
+  }, [language, t]);
 
   return (
     <div className="min-h-screen">
